@@ -63,6 +63,7 @@ public class CashbackHackServiceTest {
     public void shouldAmountZero2() {
         CashbackHackService service = new CashbackHackService();
 
+
         int amount = 0;
         int expected = 1000;
         int actual = service.remain(amount);
