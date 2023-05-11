@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 public class CashbackHackServiceTest {
     @Test
-    public void testRemain() {
+    public void testRemainVintage() {
         CashbackHackService service = new CashbackHackService();
 
         int amount = 1800;
@@ -14,7 +14,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
     @Test
-    public void testRemain1() {
+    public void testRemain1Vintage() {
         CashbackHackService service = new CashbackHackService();
 
         int amount = 1000;
@@ -23,7 +23,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
     @Test
-    public void testRemainWithCashback() {
+    public void testRemainWithCashbackVintage() {
         CashbackHackService service = new CashbackHackService();
 
         int amount = 900;
@@ -32,7 +32,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
     @Test
-    public void shouldAmountZero() {
+    public void shouldAmountZeroVintage() {
         CashbackHackService service = new CashbackHackService();
 
         int amount = 0;
